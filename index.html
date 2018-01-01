@@ -8,3 +8,22 @@ title: Sagar Ghai
         <h2>I&lsquo;m <a href="/info">Sagar</a> &ndash; a Software Engineer at <a href="http://www.nucleussoftware.com">Nucleus</a> in New Delhi, India.</h2>
     </div>
 </div>
+<div class="toc">
+    <div class="home-greeting">
+        <div class="toc-row">
+            <h2>2018</h2>
+        </div>
+        <hr class="toc-line toc-line-thick">
+
+ 		{% for post in site.posts %}
+        <div class="toc-row">
+            <div class="toc-date">{ post.date | date_to_string }}</div>
+            <div class="toc-content">
+                <h3 class="toc-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+                <div>{{post.description}}</div>
+            </div>
+        </div>
+        <hr class="toc-line">
+        {% endfor %}
+    </div>
+</div>
