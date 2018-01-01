@@ -6,6 +6,7 @@ title: Sagar Ghai
     <div class="home-greeting">
         <h1 class="home-greeting-shout">Hi.</h1>
         <h2>I&lsquo;m <a href="/info">Sagar</a> &ndash; a Software Engineer at <a href="http://www.nucleussoftware.com">Nucleus</a> in New Delhi, India.</h2>
+        <h2>I <a href="#">Read</a>,<a href="#">Write</a> and <a href="#">Code</a></h2>
     </div>
 </div>
 <div class="toc">
@@ -17,7 +18,7 @@ title: Sagar Ghai
 
  		{% for post in site.posts %}
         <div class="toc-row">
-            <div class="toc-date">{ post.date | date_to_string }}</div>
+            <div class="toc-date">{{ post.date | date_to_string }}</div>
             <div class="toc-content">
                 <h3 class="toc-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
                 <div>{{post.description}}</div>
