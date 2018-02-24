@@ -5,8 +5,8 @@ title: Sagar Ghai
 <div class="container-column">
     <div class="home-greeting">
         <h1 class="home-greeting-shout">Hi.</h1>
-        <h2>I&lsquo;m <a href="/info">Sagar</a> &ndash; a Software Engineer at <a href="http://www.nucleussoftware.com">Nucleus</a> in New Delhi, India.</h2>
-        <h2>I <a href="#">Read</a>,<a href="#">Write</a> and <a href="#">Code</a></h2>
+        <h2>I&lsquo;m <a href="https://www.linkedin.com/in/sagar-ghai-374840b8" target="_blank">Sagar</a> &ndash; a Software Engineer at <a href="http://www.nucleussoftware.com" target="_blank">Nucleus</a> in New Delhi, India.</h2>
+        <h2>I <a href="/mylist">Read</a>,<a href="/blog">Write</a> and <a href="/explore">Explore</a></h2>
     </div>
 </div>
 <div class="toc">
@@ -16,7 +16,23 @@ title: Sagar Ghai
         </div>
         <hr class="toc-line toc-line-thick">
 
- 		{% for post in site.posts %}
+ 		{% for post in site.posts_2018 %}
+        <div class="toc-row">
+            <div class="toc-date">{{ post.date | date_to_string }}</div>
+            <div class="toc-content">
+                <h3 class="toc-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+                <div>{{post.description}}</div>
+            </div>
+        </div>
+        <hr class="toc-line">
+        {% endfor %}
+
+        <div class="toc-row">
+            <h2>2017</h2>
+        </div>
+        <hr class="toc-line toc-line-thick">
+
+        {% for post in site.posts_2017 %}
         <div class="toc-row">
             <div class="toc-date">{{ post.date | date_to_string }}</div>
             <div class="toc-content">

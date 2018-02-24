@@ -1,0 +1,23 @@
+---
+layout: default
+title: Sagar Ghai's Blog
+---
+<div class="toc">
+    <div class="home-greeting">
+        <div class="toc-row">
+            <h2>My Reading Library</h2>
+        </div>
+        <hr class="toc-line toc-line-thick">
+
+        {% for item in site. %}
+        <div class="toc-row">
+            <div class="toc-date">{{ post.date | date_to_string }}</div>
+            <div class="toc-content">
+                <h3 class="toc-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+                <div>{{post.description}}</div>
+            </div>
+        </div>
+        <hr class="toc-line">
+        {% endfor %}
+    </div>
+</div>
