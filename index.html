@@ -4,9 +4,9 @@ title: Sagar Ghai
 ---
 <div class="container-column">
     <div class="home-greeting">
-        <h1 class="home-greeting-shout">Hi.</h1>
+        <h1 class="home-greeting-shout">Hi!</h1>
         <h2>I&lsquo;m <a href="https://www.linkedin.com/in/sagar-ghai-374840b8" target="_blank">Sagar</a> &ndash; a Software Engineer at <a href="http://www.nucleussoftware.com" target="_blank">Nucleus</a> in New Delhi, India.</h2>
-        <h2>I <a href="/mylist">Read</a>,<a href="/blog">Write</a> and <a href="/explore">Explore</a></h2>
+        <h2>I <a href="/reading">Read</a>,<a href="/blog">Write</a> and <a href="/explore">Explore</a></h2>
     </div>
 </div>
 <div class="toc">
@@ -16,7 +16,7 @@ title: Sagar Ghai
         </div>
         <hr class="toc-line toc-line-thick">
 
- 		{% for post in site.posts_2018 %}
+ 		{% for post in site.categories.2018 %}
         <div class="toc-row">
             <div class="toc-date">{{ post.date | date_to_string }}</div>
             <div class="toc-content">
@@ -32,7 +32,7 @@ title: Sagar Ghai
         </div>
         <hr class="toc-line toc-line-thick">
 
-        {% for post in site.posts_2017 %}
+        {% for post in site.categories.2017 %}
         <div class="toc-row">
             <div class="toc-date">{{ post.date | date_to_string }}</div>
             <div class="toc-content">

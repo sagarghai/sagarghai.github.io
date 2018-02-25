@@ -1,15 +1,15 @@
 ---
-layout: default
-title: Sagar Ghai's Blog
+layout : default
+title : Sagar Ghai
 ---
 <div class="toc">
     <div class="home-greeting">
         <div class="toc-row">
-            <h2>Everything is here for reference!</h2>
+            <h2>My Reading Library</h2>
         </div>
         <hr class="toc-line toc-line-thick">
 
-        {% for post in site.posts %}
+        {% for post in site.categories.books %}
         <div class="toc-row">
             <div class="toc-date">{{ post.date | date_to_string }}</div>
             <div class="toc-content">
