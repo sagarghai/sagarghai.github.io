@@ -5,15 +5,15 @@ date: 2017-09-18
 description: These questions Bug me!
 ---
 
-*   Is the truth always right, for it hurts more often,
-    But a lie will eventually kill the good in you,
-    So do you lie or be a righteous culprit,
+*   Is the truth always right, for it hurts more often,<br>
+    But a lie will eventually kill the good in you,<br>
+    So do you lie or be a righteous culprit,<br>
     Or do you right every wrong and be killed yourself.
 
-*   Why do humans kill themselves?
-    Does the society not let them be?
-    Or is it their shattered brain?
-    Or is it the society that shattered them long ago,
+*   Why do humans kill themselves?<br>
+    Does the society not let them be?<br>
+    Or is it their shattered brain?<br>
+    Or is it the society that shattered them long ago,<br>
     to which their heart gave up!
 
 *   When a man dies, the soul is put into another being,
