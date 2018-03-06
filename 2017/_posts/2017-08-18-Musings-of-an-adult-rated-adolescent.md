@@ -6,8 +6,11 @@ description: These questions Bug me!
 ---
 
 *   Is the truth always right, for it hurts more often,
+
     But a lie will eventually kill the good in you,
+
     So do you lie or be a righteous culprit,
+
     Or do you right every wrong and be killed yourself.
 
 *   Why do humans kill themselves?
