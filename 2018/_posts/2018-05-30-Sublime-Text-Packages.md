@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Productivity improvemtns for Sublime text"
-date: 2018-03-09
+date: 2018-05-31
 description: Sublime can become a complete IDE and help imrpove your current productivity.
 ---
 
