@@ -5,8 +5,6 @@ date: 2018-03-09
 description: Custom tags for factoring the reading library that i maintain in Pocket
 ---
 
-# Pocket-Tagging
-
 Pocket is a tool used for keeping track of readings that you discover online but you dont have the time to go through at that time and therefore you have the to keep them stored somewhere. It also allows you to tag things in order to find the right things at the right time. You can also create public recommendations which can be used as your personally liked stuff. Best part is, it is **mozilla** owned.
 
 This is a metadata library for pocket tags that I use.
@@ -19,7 +17,7 @@ This is a metadata library for pocket tags that I use.
 | Information   | Contains Information             |
 | Tool          | Is a useful Tool                 |
 
-
+<br>
 **Data Type of Article**
 
 | Type          | Description                      |
@@ -27,6 +25,7 @@ This is a metadata library for pocket tags that I use.
 | Text          | Text type data in the article    |
 | Video         | Contains video based items       |
 
+<br>
 **Context of the Article**
 
 | Type            | Description                      |
