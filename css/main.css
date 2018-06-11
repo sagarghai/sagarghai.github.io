@@ -431,3 +431,15 @@ video {
         margin: 0 20%;
     }
 }
+
+table{
+    color: #fff;
+    background-color: #212529;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    border-collapse: collapse;
+    display: table;
+    border-spacing: 2px;
+    border-color: grey;
+}
