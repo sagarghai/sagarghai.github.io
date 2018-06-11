@@ -443,3 +443,7 @@ table{
     border-spacing: 2px;
     border-color: grey;
 }
+
+td{
+    text-align:left;
+}
