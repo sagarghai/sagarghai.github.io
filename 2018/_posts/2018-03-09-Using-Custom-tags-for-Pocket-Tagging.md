@@ -11,39 +11,39 @@ This is a metadata library for pocket tags that I use.
 
 **NEED OF ARTICLE**
 
-| Tags          | Description                      |
-|:-------------:|:--------------------------------:|
-| resource      | Contains stuff that maybe useful |
-| Information   | Contains Information             |
-| Tool          | Is a useful Tool                 |
+| S.No  | Tags          | Description                      |
+|:-----:|:-------------:|:--------------------------------:|
+| 1     | resource      | Contains stuff that maybe useful |
+| 2     | Information   | Contains Information             |
+| 3     | Tool          | Is a useful Tool                 |
 
 <br>
 **Data Type of Article**
 
-| Type          | Description                      |
-|:-------------:|:--------------------------------:|
-| Text          | Text type data in the article    |
-| Video         | Contains video based items       |
+| S.No  | Type          | Description                      |
+|:-----:|:-------------:|:--------------------------------:|
+| 1     | Text          | Text type data in the article    |
+| 2     | Video         | Contains video based items       |
 
 <br>
 **Context of the Article**
 
-| Type            | Description                      |
-|:---------------:|:--------------------------------:|
-| NLP             | Natural Language Processing      |
-| ML-DL           | AI and ML-DL                     |
-| Computer Vision | CV, image recog etc.             |
-| Reading         | Literature and Reading           |
-| Economics       | Econ                             |
-| Finance         | Banking,finance,investment       |
-| Politics        | Policies and government          |
-| Programming     | Coding and stuff                 |
-| Philosophy      | Life and stuff                   |
-| Entrepreneurship| Entrpreneurship philosophy       |
-| Startups        | Startups and Businesses          |
-| Books           | Books and reading                |
-| Entertainment   | TV,VIdeo and stuff               |
-| Technology      | Technology related items         |
-| Misc            | Everything Else                  |
+| S.No  | Type            | Description                      |
+|:-----:|:---------------:|:--------------------------------:|
+| 1     | NLP             | Natural Language Processing      |
+| 2     | ML-DL           | AI and ML-DL                     |
+| 3     | Computer Vision | CV, image recog etc.             |
+| 4     | Reading         | Literature and Reading           |
+| 5     | Economics       | Econ                             |
+| 6     | Finance         | Banking,finance,investment       |
+| 7     | Politics        | Policies and government          |
+| 8     | Programming     | Coding and stuff                 |
+| 9     | Philosophy      | Life and stuff                   |
+| 10    | Entrepreneurship| Entrpreneurship philosophy       |
+| 11    | Startups        | Startups and Businesses          |
+| 12    | Books           | Books and reading                |
+| 13    | Entertainment   | TV,VIdeo and stuff               |
+| 14    | Technology      | Technology related items         |
+| 15    | Misc            | Everything Else                  |
 
 This is not an exhaustive list of items and will change as and when i discover new things.
