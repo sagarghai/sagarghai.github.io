@@ -2,10 +2,8 @@
 layout: post
 title: "Productivity improvemtns for Sublime text"
 date: 2018-05-31
-description: Sublime can become a complete IDE and help imrpove your current productivity.
+description: Sublime can become a complete IDE and help improve your current productivity.
 ---
-
-## Sublime Packages
 
 Sublime text allows you to add packages, ofcourse you know it. But there are some things that make it a really smooth experience.
 
