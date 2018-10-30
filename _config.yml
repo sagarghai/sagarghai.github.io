@@ -1,4 +1,4 @@
-theme: jekyll-theme-minimal
+theme: jekyll-theme-slate
 name: Sagar Ghai
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
