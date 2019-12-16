@@ -397,7 +397,7 @@ body {
 
 img {
     display: block;
-    width: 30px;
+    width: 100%;
     max-width: 100%;
 }
 
@@ -486,7 +486,7 @@ td{
 }
 
 .social-icon{
-    width: 40px;
+    width: 30px;
     height: auto;
 }
 
