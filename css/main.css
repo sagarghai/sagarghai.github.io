@@ -137,7 +137,7 @@ p {
 .nav-logo {
     margin: 0;
     font-size: 1em;
-    background-color: white
+    background-color: white;
 }
 
 .nav-logo a {
@@ -488,5 +488,6 @@ td{
 .social-icon{
     width: 30px;
     height: auto;
+    padding:15px;
 }
 
