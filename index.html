@@ -9,23 +9,3 @@ title: Sagar Ghai
         <h2>I <a href="/reading">Read</a>,<a href="/blog">Write</a> and <a href="https://www.instagram.com/ghaisagar/">Explore</a></h2>
     </div>
 </div>
-
-<div class="toc" id="blog">
-    <div class="home-greeting">
-        <div class="toc-row">
-            <h2>Blog</h2>
-        </div>
-        <hr class="toc-line toc-line-thick">
-
- 		{% for post in site.posts %}
-        <div class="toc-row">
-            <div class="toc-date">{{ post.date | date_to_string }}</div>
-            <div class="toc-content">
-                <h3 class="toc-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
-                <div>{{post.description}}</div>
-            </div>
-        </div>
-        <hr class="toc-line">
-        {% endfor %}
-    </div>
-</div>

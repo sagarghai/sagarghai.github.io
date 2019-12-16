@@ -37,7 +37,7 @@ body {
 
 a,
 .anchor {
-    border-bottom: 2px solid rgb(191, 5, 5);
+    /*border-bottom: 2px solid rgb(191, 5, 5);*/
     color: #4f5051;
     display: inline-block;
     text-decoration: none;
@@ -50,7 +50,7 @@ a:hover,
 .anchor-parent:hover .anchor,
 .toc-row:hover .anchor {
     color: #000000;
-    border-bottom:2px solid rgb(255, 0, 0);
+    /*border-bottom:2px solid rgb(255, 0, 0);*/
 
 }
 
@@ -131,12 +131,13 @@ p {
     transition: all 0.05s linear;
     width: 100%;
     z-index: 2;
-
+    background-color: white;
 }
 
 .nav-logo {
     margin: 0;
     font-size: 1em;
+    background-color: white
 }
 
 .nav-logo a {
@@ -242,7 +243,7 @@ p {
 
 .toc-line {
     border: none;
-    border-bottom: 1px solid #222;
+    /*border-bottom: 1px solid #222;*/
     margin-left: 30px;
     outline: none;
 }
@@ -484,5 +485,8 @@ td{
     display: table-cell;
 }
 
-
+.social-icon{
+    width: 40px;
+    height: auto;
+}
 
