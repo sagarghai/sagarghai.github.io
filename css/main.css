@@ -126,7 +126,7 @@ p {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    /*position: fixed;*/
+    position: fixed;
     -webkit-transition: all 0.05s linear;
     transition: all 0.05s linear;
     width: 100%;
