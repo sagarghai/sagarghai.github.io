@@ -131,7 +131,7 @@ p {
     transition: all 0.05s linear;
     width: 100%;
     z-index: 2;
-    background-color: white;
+    /*background-color: white;*/
 }
 
 .nav-logo {
@@ -421,7 +421,7 @@ video {
 
 @media (min-width: 650px) {
     .container-site {
-        padding: 214px 0 120px;
+        /*padding: 214px 0 120px;*/
     }
 }
 
