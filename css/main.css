@@ -50,7 +50,7 @@ a:hover,
 .anchor-parent:hover .anchor,
 .toc-row:hover .anchor {
     color: #000000;
-    /*border-bottom:2px solid rgb(255, 0, 0);*/
+    border-bottom:2px solid rgb(255, 0, 0);
 
 }
 
@@ -397,7 +397,7 @@ body {
 
 img {
     display: block;
-    width: 100%;
+    width: 30px;
     max-width: 100%;
 }
 
