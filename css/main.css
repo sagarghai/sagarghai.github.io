@@ -85,12 +85,12 @@ h1 {
 }
 
 h2 {
-    font-size: 18px;
+    font-size: 11px;
 }
 
 @media (min-width: 650px) {
     h2 {
-        font-size: 24px;
+        font-size: 16px;
     }
 }
 
@@ -509,5 +509,5 @@ td{
 }
 
 .underline{
-    border-bottom: border-bottom:2px solid rgb(255, 0, 0);
+    border-bottom: 2px solid rgb(255, 0, 0);
 }
