@@ -50,7 +50,7 @@ a:hover,
 .anchor-parent:hover .anchor,
 .toc-row:hover .anchor {
     color: #000000;
-    border-bottom:2px solid rgb(255, 0, 0);
+    /*border-bottom:2px solid rgb(255, 0, 0);*/
 
 }
 
@@ -493,3 +493,10 @@ td{
     margin-left: 40px;
 }
 
+@media (max-width: 650px){
+    .social-icon{
+    width: 15px;
+    height: auto;
+    margin-left: 20px;
+    }
+}
