@@ -500,3 +500,9 @@ td{
     margin-left: 20px;
     }
 }
+
+.mainimage{
+    border-radius: 50%;
+    height:100px;
+    height:auto;
+}
