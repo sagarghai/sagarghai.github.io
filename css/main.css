@@ -503,17 +503,7 @@ td{
 
 .mainimage{
     border-radius: 50%;
-    width: 60%;
+    width: 25%;
     height: auto;
-    margin-left: 20%;
+    margin: auto;
 }
-
-/*@media (max-width: 650px){
-    .mainimage{
-        border-radius: 50%;
-        width:60%;
-        height:auto;
-        margin-left: 20%;
-    }
-}
-*/
