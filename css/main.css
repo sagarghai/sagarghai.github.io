@@ -161,6 +161,10 @@ p {
     .nav-menu-item {
         margin-right: 15px;
     }
+    .nav-menu {
+    padding: 30%;
+    background-color: white;
+    }
 }
 
 .footer {
@@ -495,14 +499,25 @@ td{
 
 @media (max-width: 650px){
     .social-icon{
-    width: 15px;
-    height: auto;
-    margin-left: 20px;
+        width: 15px;
+        height: auto;
+        margin-left: 20px;
     }
 }
 
 .mainimage{
     border-radius: 50%;
-    height:100px;
-    height:auto;
+    width: 60%;
+    height: auto;
+    margin-left: 20%;
 }
+
+/*@media (max-width: 650px){
+    .mainimage{
+        border-radius: 50%;
+        width:60%;
+        height:auto;
+        margin-left: 20%;
+    }
+}
+*/
