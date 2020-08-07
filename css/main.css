@@ -120,7 +120,15 @@ p {
 }
 
 .nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     position: fixed;
+    -webkit-transition: all 0.05s linear;
+    transition: all 0.05s linear;
     width: 100%;
     z-index: 2;
     background-color: white;
