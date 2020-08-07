@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The life of not knowing"
+title: The life of not knowing
 date: 2017-05-21
 description: What do you feel when you push yourself through the grinder hoping for something else to happen?
 ---

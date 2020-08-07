@@ -61,10 +61,15 @@ a:hover,
 
 h1,
 h2,
-h3,
 h4,
 h5,
 h6 {
+    font-weight: normal;
+    line-height: 1.4;
+    margin: 4% 0 30px;
+}
+
+h3{
     font-weight: normal;
     line-height: 1.4;
     margin: 4% 0 30px;
@@ -105,12 +110,15 @@ h2 {
 }
 
 h3 {
-    font-size: 20px;
+    font-size: 14px;
 }
 
-@media (min-width: 650px) {
+@media (max-width: 650px) {
     h3 {
-        font-size: 24px;
+        font-size: 8px;
+        font-weight: normal;
+        line-height: 1.4;
+        margin: 0;
     }
 }
 
@@ -192,9 +200,9 @@ p {
 }
 
 .footer {
-    border-top: 1px solid #000;
-    padding-top: 30px;
-    margin: 60px 0 0 30px;
+    /*border-top: 1px solid #000;*/
+    /*padding-top: 30px;*/
+    /*margin: 60px 0 0 30px;*/
 }
 
 @media (min-width: 650px) {
@@ -237,10 +245,10 @@ p {
 .toc-row {
     border: none;
     color: #222;
-    padding: 30px 0;
+    /*padding: ;*/
 }
 
-@media (min-width: 650px) {
+@media (max-width: 650px) {
     .toc-row {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -248,22 +256,16 @@ p {
     }
 }
 
-.toc-content {
-    -ms-flex-negative: 1;
-    flex-shrink: 1;
-}
-
 .toc-date {
     margin-bottom: 5px;
 }
 
-@media (min-width: 650px) {
+@media (max-width: 650px) {
     .toc-date {
-        -ms-flex-preferred-size: 150px;
-        flex-basis: 150px;
-        -ms-flex-negative: 0;
-        flex-shrink: 0;
-        margin: 0 10px 0 0;
+        margin: 0 2% 0 0;
+    }
+    .toc-content{
+        margin: 0 2% 0 0;
     }
 }
 
@@ -273,15 +275,10 @@ p {
 
 .toc-line {
     border: none;
-    /*border-bottom: 1px solid #222;*/
-    margin-left: 30px;
+    border-bottom: 1px solid #222;
+    margin-left: 20%;
+    margin-right: 20%;
     outline: none;
-}
-
-@media (min-width: 650px) {
-    .toc-line {
-        margin-left: 20%;
-    }
 }
 
 .toc-line-thick {
@@ -459,13 +456,20 @@ video {
     }
 }
 
-.container-column,
-.toc-row {
+.container-column {
     margin: 3% 30px;
 }
 
+.toc-row
+{
+    margin: 3% 30px;
+}
+
+
 @media (min-width: 650px) {
-    .container-column,
+    .container-column{
+        margin: 3% 20%;
+    }
     .toc-row {
         margin: 3% 20%;
     }
