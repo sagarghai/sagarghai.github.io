@@ -153,11 +153,13 @@ p {
     float: left;
     list-style-type: none;
     margin-right: 10px;
+    border-bottom: 2px solid rgb(191, 5, 5);
 }
 
 @media (min-width: 650px) {
     .nav-menu-item {
         margin-right: 15px;
+        border-bottom: 2px solid rgb(191, 5, 5);
     }
 }
 
