@@ -120,24 +120,15 @@ p {
 }
 
 .nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
     position: fixed;
-    -webkit-transition: all 0.05s linear;
-    transition: all 0.05s linear;
     width: 100%;
     z-index: 2;
-    background-color: none;
+    background-color: white;
 }
 
 .nav-logo {
     margin: 0;
     font-size: 1em;
-    background-color: white;
 }
 
 .nav-logo a {
@@ -148,7 +139,6 @@ p {
 
 .nav-menu {
     padding: 30px;
-    background-color: white;
 }
 
 .nav-menu-item {
