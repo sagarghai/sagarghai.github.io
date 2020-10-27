@@ -4,21 +4,22 @@ title: Sagar Ghai's Blog
 ---
 <div class="toc">
     <div class="home-greeting">
-        <div class="toc-row">
-            <h1 style="text-align: center;">Welcome to my chamber of thoughts!</h1><br>
-        </div>
-
-        <hr class="toc-line toc-line-thick">
+        <!-- <div class="toc-row" style="margin-bottom: 1%;">
+            <h1 style="text-align: center;margin-bottom: 5px;">Welcome to my chamber of thoughts!</h1><br>
+        </div> -->
+        <h1>Weekend thoughts</h1>
+        <hr>
 
         {% for post in site.posts %}
-        <div class="toc-row">
-            <div class="toc-date"><h3>{{ post.date | date_to_string }}</h3></div>
+        <!-- <div class="toc-row"> -->
+            <!-- <div class="toc-date"><h3>{{ post.date | date_to_string }}</h3></div> -->
             <div class="toc-content">
-                <h2 class="toc-title"><a href="{{ post.url }}" class="underline">{{ post.title }}</a></h2>
-                <div><h3>{{post.description}}</h3></div>
+                <h2 class="toc-title"><a href="{{ post.url }}" class="underline">{{ post.title }}</a><!-- <small> - {{ post.date | date_to_string }}<small> --></h2>
+                <div><h5 class="sub-title">{{ post.date | date_to_string }}</h5></div>
+                <div><h5 class="sub-title">{{post.description}}</h5></div>
             </div>
-        </div>
-        <hr class="toc-line">
+        <!-- </div> -->
+        <!-- <hr class="toc-line"> -->
         {% endfor %}
     </div>
 </div>

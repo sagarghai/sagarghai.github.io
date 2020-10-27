@@ -43,7 +43,7 @@ body {
 a,
 .anchor {
     /*border-bottom: 2px solid rgb(191, 5, 5);*/
-    color: #4f5051;
+    color: rgb(0, 126, 217);
     display: inline-block;
     text-decoration: none;
 }
@@ -54,8 +54,8 @@ a:hover,
 .toc-row:hover a,
 .anchor-parent:hover .anchor,
 .toc-row:hover .anchor {
-    color: #000000;
-    /*border-bottom:2px solid rgb(255, 0, 0);*/
+    color: rgb(0, 80, 138);
+    /*border-bottom: 1px solid rgb(0, 80, 138);*/
 
 }
 
@@ -66,7 +66,7 @@ h5,
 h6 {
     font-weight: normal;
     line-height: 1.4;
-    margin: 4% 0 30px;
+    margin: 4%;
 }
 
 h3{
@@ -548,5 +548,11 @@ td{
 }
 
 .underline{
-    border-bottom: 2px solid rgb(255, 0, 0);
+    /*border-bottom: 1px solid rgb(9, 0, 173);*/
+    color: rgb(0, 126, 217);
+}
+
+.sub-title{
+    font-size: 12px;
+    margin: 1% 1% 1% 4%;
 }
