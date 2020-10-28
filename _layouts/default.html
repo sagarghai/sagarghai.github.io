@@ -1,10 +1,9 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<!-- @author: Sagar Ghai -->
-<!-- @email: sagar_ghai@outlook.in-->
+<!doctype html>
 <html lang="en">
-<head>
-    <title>{{ page.title }}</title>
-    <meta charset="utf-8" />
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="keywords" content="Sagar Ghai, Sagar Ghai IIM Indore" />
     <meta name="description" content="Sagar Ghai's Webpage, ghaisaab, Sagar Ghai, Sagar Ghai IIM Indore, MBA desiMBA,Sagar Ghai IIT Mandi, desi mba, IIT Mandi, " />
@@ -16,35 +15,90 @@
     <meta property="og:site_name" content="Sagar Ghai" />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="/images/main.png" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <link rel="shortcut icon" type="image/png" href="/images/logo.png"/>
-</head>
-<body>
-    <div class="nav">
-        <h1 class="nav-logo">
-            <a href="/">
-              <img src="/images/logo.png" alt="Sagar Ghai" style="width:60px;">
-            </a>
-        </h1>
-        <ul class="nav-menu">
-            <li class="nav-menu-item underline"><a href="/blog">Blog</a></li>
-            <li class="nav-menu-item underline"><a href="/course">Valley of Numbers</a></li>
-            <li class="nav-menu-item underline"><a href="/projects">Projects</a></li>
-            <li class="nav-menu-item underline"><a href="/public/SagarGhai.pdf">CV</a></li>
-        </ul>
-    </div>
-    <div class="container-site">
+    
+    <title>{{ page.title }}</title>
+  
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg fixed-top bg-white">
+        <a class="navbar-brand" href="/">
+            <img src="/images/logo.png" width="80" height="80" alt="Sagar Ghai">
+        </a>
+        <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="mx-auto navbar-nav mt-2 mt-lg-0 mr-5">
+                <li class="nav-item ml-3">
+                    <a class="nav-link text-primary" href="/blog">Blog</a>
+                </li>
+                <li class="nav-item ml-3">
+                    <a class="nav-link text-primary" href="https://valleyofnumbers.substack.com/" target="_blank">Valley of Numbers</a>
+                </li>
+                <li class="nav-item ml-3">
+                    <a class="nav-link text-primary" href="/projects">Projects</a>
+                </li>
+                <li class="nav-item ml-3">
+                    <a class="nav-link text-primary" href="/public/SagarGhai.pdf">CV</a>
+                </li>
+            </ul>
+            <ul class="float-right navbar-nav mt-2 mt-lg-0 mr-5" id="contact-element">
+                <li class="nav-item ml-3">
+                    <a class="btn btn-light btn-outline-dark" href="/contact">Contact</a>
+                </li> 
+            </ul>
+      </div>
+    </nav>
+
+    <div class="container" id="main">
         {{content}}
+
+    <!-- <div class="container"> -->
+        <div class="row p-5">
+            <div class="col text-center">
+                <a class="fa fa-twitter fa-lg"  href="https://twitter.com/iamsagarghai" target="_blank"></a>
+            </div>
+            <div class="col text-center">
+                <a class="fa fa-instagram fa-lg text-danger"  href="https://www.instagram.com/ghaisaaaab/" target="_blank"></a>
+            </div>
+            <div class="col text-center">
+                <a class="fa fa-linkedin fa-lg text-info"  href="https://www.linkedin.com/in/sagar-ghai-374840b8" target="_blank"></a>    
+            </div>
+            <div class="col text-center">
+                <a class="fa fa-medium fa-lg text-success"  href="https://medium.com/@sagarghai" target="_blank"></a>    
+            </div>
+            <div class="col text-center">
+                <a class="fa fa-github fa-lg text-secondary"  href="https://github.com/sagarghai" target="_blank"></a>    
+            </div>
+        </div>
+    <!-- </div> -->
+
+    <div class="bg-white text-center">
+         <span class="text-muted small">Created by <a href="https://sagarghai.com/">Sagar Ghai</a> using <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a> and <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>. Hosted at <a href="https://github.com/sagarghai" target="_blank">Github</a></span>
     </div>
-    <div class="nav" style="position: unset;">
-        <ul class="nav-menu" style="margin:auto;">
-            <li class="nav-menu-item"><a href="https://www.linkedin.com/in/sagar-ghai-374840b8/"><img src="/images/linkedin.png" alt="Linkedin" class="social-icon"/></a></li>
-            <li class="nav-menu-item"><a href="https://medium.com/@sagarghai18695"><img src="/images/medium.png" alt="Blog" class="social-icon"/></a></li>
-            <li class="nav-menu-item"><a href="https://twitter.com/iamsagarghai"><img src="/images/twitter.png" alt="Twitter" class="social-icon"/></a></li>
-            <li class="nav-menu-item"><a href="https://github.com/sagarghai"><img src="/images/github.png" alt="Github" class="social-icon"/></a></li>
-            <li class="nav-menu-item"><a href="mailto:iamsagarghai@gmail.com"><img src="/images/gmail.png" alt="Email" class="social-icon"/></a></li>
-            <li class="nav-menu-item"><a href="https://www.instagram.com/ghaisaaaab/"><img src="/images/instagram.png" alt="Instagram" class="social-icon"/></a></li>
-        </ul>
-    </div>
-</body>
+   </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script type="text/javascript">
+        function myFunction() {
+            var element = document.getElementById("contact-element");
+            element.classList.remove("float-right");
+        }
+
+        var x = window.matchMedia("(max-width: 990px)")
+        myFunction(x) // Call listener function at run time
+        x.addListener(myFunction) // Attach listener function on state changes
+    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
 </html>
