@@ -6,10 +6,12 @@ layout: default
         
         <h1 class="text-center p-3">{{ page.title }}</h1>
         <div class="row">
-        	<div class="col text-right ">
+        	<div class="text-right ">
         		<p class="font-italic text-muted p-1">"{{page.description}}"</p>
         	</div>
-        	<div class="col text-left">
+        </div>
+         <div class="row">
+        	<div class="text-left">
         		<p class="font-italic text-muted p-1" >{{ page.date | date_to_string }}</p>
         	</div>
         </div>
