@@ -2,7 +2,7 @@
 layout: post
 title: Inheritance and distributed economies
 date: 2021-05-09
-description: A thoght around how inheritance has benn the real change maker in the Indian context
+description: A thought around how inheritance is needed to maintain growth and the future of countries
 ---
 
 I recently read a post by Balaji S. [here](https://1729.com/founding-vs-inheriting/) and it felt pretty clear that one of the main reasons why one of the two schools of thought, namely the west and the east coast, would be better prepared to bring about radical change is because of the nature of lives and culture that they are brought up in. While I truly agree with the analogies that were brought out in the context of the US, there were several key aspects that I felt were missing when you consider the developing nations.
