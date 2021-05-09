@@ -2,22 +2,53 @@
 layout : default
 title : Projects
 ---
-<div class="toc">
-    <div class="home-greeting">
-        <div class="toc-row">
-            <h2>My Reading Library</h2>
+    <div class="text-center">
+        <h3 class="text-center p-4">Some Interesting things that I built!</h3>
+    </div>
+    
+    <hr class="pb-4">
+    
+    <div class="row">
+        <div class="col text-center">
+            <a href="https://www.notion.so/sagarghai/9fe421e4231c49be9478b4d317da9b7f?v=82d7b9783ad44e25bef45aadc22ce137">Marquee</a>
         </div>
-        <hr class="toc-line toc-line-thick">
+        <div class="col-9 text-left">
+            <p>Always WIP database of resources, collections and link notebooks</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col text-center">
+            <a href="https://sagarghai.com/PyLines/">PyLines</a>
+        </div>
+        <div class="col-9 text-left">
+            <p>A primer on machine learning models implemented from scratch</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col text-center">
+            <a href="https://sagarghai.com/Minion/">Minion</a>
+        </div>
+        <div class="col-9 text-left">
+            <p>A file sharing system that needs no pen drive. This saved me 20 lost pen drives</p>
+        </div>
+    </div>
 
+    <div class="text-center">
+        <h3 class="text-center p-4">Explainers</h3>
+    </div>
+    
+    <hr class="thick pb-4">
+    
+    <div class="container">
         {% for post in site.categories.projects %}
-        <div class="toc-row">
-            <div class="toc-date">{{ post.date | date_to_string }}</div>
-            <div class="toc-content">
-                <h3 class="toc-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
-                <div>{{post.description}}</div>
+            <div class="row">
+                <div class="col text-right">
+                    <p>{{ post.date | date_to_string }}</p>
+                </div>
+                <div class="col-9 text-left">
+                    <a href="{{ post.url }}" >{{ post.title }}</a>
+                </div>
             </div>
-        </div>
-        <hr class="toc-line">
         {% endfor %}
     </div>
-</div>
+ </div>
